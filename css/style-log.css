@@ -1,0 +1,11 @@
+.user-details{
+flex-direction: column;
+align-items: center;
+}
+
+form .user-details .input-box{
+    width: 100%;
+}
+form .button{
+    width: 50%;
+}
