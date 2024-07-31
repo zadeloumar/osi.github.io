@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style-ayth.css">
+</head>
+<body>
+    <div class="container">
+        <div class="title">Ворид шави ба система</div>
+        <div class="content">
+          <form action="./pt_py/send.php" method="post">
+            
+            <div class="user-details">
+              <div class="input-box">
+                <span class="details">Ному насаби шумо</span>
+                <input type="text" name="userName" placeholder="Ному Насаб" required>
+              </div>
+              <div class="input-box">
+                <span class="details">Санаи таввалуд</span>
+                <input type="date" name="birthday" required>
+              </div>
+              <div class="input-box">
+                <span class="details">Почтаи электорнӣ(емайл/@)Email</span>
+                <input type="text" name="userEmail" placeholder="@namunagmail.com" required>
+              </div>
+              <div class="input-box">
+                <span class="details">Рақами телефон</span>
+                <input type="text" name="userPhone" placeholder="+(992) 000 00 00 00" required>
+              </div>
+            <div class="gender-details">
+              <input class="in_con" type="checkbox" name="consent" id="consent" required>
+              <label for="consent">согласие ан обработку даных </label>
+            </div>
+           
+            <div class="button">
+              <input type="submit" value="давом">
+            </div>
+          </form>
+        </div>
+      </div>
+    
+</body>
+</html>
