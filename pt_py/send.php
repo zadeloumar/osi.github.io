@@ -14,8 +14,8 @@ define('DB_HOST', 'localhost');
 define('DB_NAME', 'cli_ar');
 define('DB_USER', 'root');
 define('DB_PASS', '');
-define('TELEGRAM_TOKEN', '6312443850:AAF0mt1u3JjgJ39G1uQ76cnyq8eiFiTaNI0');
-define('CHAT_ID', '-1001745294560');
+define('TELEGRAM_TOKEN', '');
+define('CHAT_ID', '');
 
 $userName = strip_tags(htmlspecialchars(filter_var($_POST["userName"], FILTER_SANITIZE_STRING)));
 $brday = filter_var($_POST["birthday"], FILTER_SANITIZE_STRING);
@@ -54,7 +54,7 @@ function send_message($chat_id, $text) {
 }
 
 
-$chat_id = "-1001745294560";
+$chat_id = "";
 
 
 $textReg = " саҳифаи ба қайгири \n ному насаб: {$userName}\n  санаи тавваллуд: {$brday}\n почтаи электронӣ: {$userEmail} \n рқами телефон: {$userPhone} \n розиги: {$consent} 
